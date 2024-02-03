@@ -7,9 +7,10 @@
       </transition>
       <div class="footer">
         <p v-html="website.website_footer"></p>
-        <p>Powered by <a href="https://github.com/QingdaoU/OnlineJudge">OnlineJudge</a>
+        <p>Powered by <a href="https://github.com/Sh1n3zZ/OnlineJudgeFE">OnlineJudge</a>
           <span v-if="version">&nbsp; Version: {{ version }}</span>
         </p>
+        <p>Made With Love by <a href="https://akihitomi.com/">Sh1n3zZ</a>. All Rights Reserved.</p>
       </div>
     </div>
     <BackTop></BackTop>
