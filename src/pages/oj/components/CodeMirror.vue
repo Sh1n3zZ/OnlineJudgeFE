@@ -161,6 +161,9 @@
     watch: {
       'theme' (newVal, oldVal) {
         this.editor.setOption('theme', newVal)
+      },
+      'language' (newVal, oldVal) {
+        this.onLangChange(newVal)
       }
     }
   }
